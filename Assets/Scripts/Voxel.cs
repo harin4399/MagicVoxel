@@ -29,7 +29,7 @@ public class Voxel : MonoBehaviour
         currentTime = currentTime + Time.deltaTime;
         if(currentTime > destroyTime)   // 시간초과
         {
-            Destroy(gameObject);    // 복셀 제거거
+            Destroy(gameObject);    // 복셀 제거
         }
     }
 }
