@@ -25,7 +25,7 @@ public class VoxelMaker : MonoBehaviour
             GameObject voxel = Instantiate(voxelFactory);
 
             // + 복셀에 색상 입히기
-            voxel.Render =
+            //voxel.Render =
 
             // 2. 복셀 비활성화
             voxel.SetActive(false);
